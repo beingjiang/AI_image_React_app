@@ -81,7 +81,7 @@ const CreatePost = () => {
 
   return (
     <section className="max-w-full mx-auto bg-[#1b1a19] bg-opacity-0 p-20 rounded-3xl">
-      <div class="grid grid-cols-2 gap-1">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-1">
         <div>
       <div>
         <h1 className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 to-yellow-500">Create</h1>
