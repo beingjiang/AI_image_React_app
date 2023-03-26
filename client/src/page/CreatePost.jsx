@@ -84,7 +84,7 @@ const CreatePost = () => {
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 justify-center gap-x-4">
         <div>
       <div>
-        <h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 to-yellow-500">Create</h1>
+        <h1 className="font-extrabold text-transparent text-4xl sm:text-base lg:text-7xl bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 to-yellow-500">Create</h1>
         <p className="mt-2 text-white text-[16px] max-w-[500px]">Generate an imaginative image through DALL-E AI and share it with the community</p>
       </div>
 
