@@ -81,11 +81,11 @@ const CreatePost = () => {
 
   return (
     <section className="max-w-full mx-auto bg-[#1b1a19] bg-opacity-0 p-20 rounded-3xl">
-      <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-1">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 justify-center gap-x-4">
         <div>
       <div>
-        <h1 className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 to-yellow-500">Create</h1>
-        <p className="mt-2 text-white text-[18px] max-w-[500px]">Generate an imaginative image through DALL-E AI and share it with the community</p>
+        <h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 to-yellow-500">Create</h1>
+        <p className="mt-2 text-white text-[16px] max-w-[500px]">Generate an imaginative image through DALL-E AI and share it with the community</p>
       </div>
 
       <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
